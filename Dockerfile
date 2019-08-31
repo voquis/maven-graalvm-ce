@@ -1,4 +1,4 @@
-FROM oracle/graalvm-ce:19.1.0
+FROM oracle/graalvm-ce:19.1.1
 
 ARG MAVEN_VERSION=3.1.1
 ARG USER_HOME_DIR="/root"
