@@ -1,8 +1,8 @@
 FROM oracle/graalvm-ce:19.0.0
 
-ARG MAVEN_VERSION=3.0.5
+ARG MAVEN_VERSION=3.1.1
 ARG USER_HOME_DIR="/root"
-ARG SHA=aecc0d3d67732939c0056d4a0d8510483ee1167e
+ARG SHA=630eea2107b0742acb315b214009ba08602dda5f
 ARG BASE_URL=https://apache.osuosl.org/maven/maven-3/${MAVEN_VERSION}/binaries
 
 RUN mkdir -p /usr/share/maven /usr/share/maven/ref \
